@@ -17,7 +17,9 @@ This dashboard helps the Walmart e-commerce  to improve their business by analyz
      import pandas as pd
 
      link="https://raw.githubusercontent.com/LokeshKumarChauhan/DE_with_powerBI/main/Walmart.csv"
+  
      df=pd.read_csv(link)
+  
      print(df)
 
 - Step 4 : Open power query editor & in view tab under Data preview section , check "column distribution" , "column quality" and "column profile " options.
